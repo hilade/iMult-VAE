@@ -30,46 +30,28 @@ optimize the  value. We suggest to use  user-specific  values.
 
 Dataset:
 
-
-
 For the evaluation of our models, we used
-the Million Song Dataset.
+the Million Song Dataset. Specifically, we used two datasets from it:
 
 
 
-Specifically, we used two datasets from it:
-
-
-
-The echo nest dataset 
-
-
+1. The echo nest dataset 
 
 This dataset contains (user id, song id,
 play count) triplets for one million users.
 
-
-
 This dataset was used as implicit user
 feedback.
-
-
 
 http://millionsongdataset.com/sites/default/files/challenge/train_triplets.txt.zip
 
 
-The Last.FM Dataset
-
-
+2. The Last.FM Dataset
 
 This dataset contains metadata for the
 million songs in the MSD datset. 
 
-
-
 This dataset was used as complementary side
 information for the echo nest’s data. 
-
-
 
 http://labrosa.ee.columbia.edu/millionsong/sites/default/files/AdditionalFiles/track_metadata.db
