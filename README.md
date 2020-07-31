@@ -37,21 +37,21 @@ the Million Song Dataset. Specifically, we used two datasets from it:
 
 1. The echo nest dataset 
 
-This dataset contains (user id, song id,
-play count) triplets for one million users.
+    This dataset contains (user id, song id,
+    play count) triplets for one million users.
 
-This dataset was used as implicit user
-feedback.
+    This dataset was used as implicit user
+    feedback.
 
-http://millionsongdataset.com/sites/default/files/challenge/train_triplets.txt.zip
+    http://millionsongdataset.com/sites/default/files/challenge/train_triplets.txt.zip
 
 
 2. The Last.FM Dataset
 
-This dataset contains metadata for the
-million songs in the MSD datset. 
+    This dataset contains metadata for the
+    million songs in the MSD datset. 
 
-This dataset was used as complementary side
-information for the echo nest’s data. 
+    This dataset was used as complementary side
+    information for the echo nest’s data. 
 
-http://labrosa.ee.columbia.edu/millionsong/sites/default/files/AdditionalFiles/track_metadata.db
+    http://labrosa.ee.columbia.edu/millionsong/sites/default/files/AdditionalFiles/track_metadata.db
